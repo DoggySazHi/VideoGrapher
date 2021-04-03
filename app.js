@@ -1,22 +1,22 @@
-const express = require('express')
+const express = require('express');
 const bodyParser = require("body-parser");
  
-const app = express()
-const port = 31415
+const app = express();
+const port = 31415;
 
-app.use(express.static(__dirname + '/static'))
+app.use(express.static(__dirname + '/'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.listen(port, () => {
-    console.log(`Starting VideoGrabber server...`)
-    console.log(`Running on port ${port}!`)
-    console.log(`Connect through a browser at \"http://localhost:${port}\"!`)
+    console.log(`Starting VideoGrabber server...`);
+    console.log(`Running on port ${port}!`);
+    console.log(`Connect through a browser at \"http://localhost:${port}\"!`);
 });
 
 app.get('/hello', function (req, res) {
-    res.send("mukyu!")
+    res.send("mukyu!");
 });
 
 app.get('*', function(req, res){

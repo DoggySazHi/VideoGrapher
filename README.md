@@ -1,15 +1,16 @@
 # VideoGrapher
 Literally takes a video and draws using the Desmos API.
+[Watch the video demo here.](https://williamle.com/BadAppleDesmos.mp4)
 
 I dunno, Bad Apple!!
+(ft. nomico from Alstroemeria Records plz don't sue)
 
 ## Status
-Yeah, no.
+Yeah, no. This was made in essentially one day.
 
 ## Usage
-Start the generic Node server (or any static hosting server). Then navigate to the webpage. Click, and watch.
-I did not include the 480x360 mp4 file of `bad_apple_pv.mp4` for obvious copyright reasons (and that it's a big file to put in GitHub).
-Just find a copy (or another video of the same name) and plop that down in the static folder.
+Start the generic Node server (or any static hosting server). Then navigate to the webpage. Click on the page to trigger and watch.
+I included the 480x360 mp4 file of `bad_apple_pv.mp4` from [YouTube](https://www.youtube.com/watch?v=FtutLA63Cp8).
 
 ## Contribution
 Please don't. Or do, if you really want to figure out how to graph Fourier epicircles because IDK how to do that *with Desmos*.
