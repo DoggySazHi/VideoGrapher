@@ -1,0 +1,14 @@
+{
+  "name": "VideoGrapher",
+  "version": "0.0.0",
+  "description": "nagareteku toki no naka de demo kedarusa ga hora guruguru mawatte",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"you thought i would test this.\" && exit 1"
+  },
+  "author": "DoggySazHi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

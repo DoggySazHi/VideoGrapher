@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css"/>
+    <title>Desmos Test!!</title>
+</head>
+<body>
+    <!-- I don't lke flex, but idk how to make them side-by-side lol -->
+    <div class="mukyu">
+        <div id="main" class="calc-main"> </div>
+        <div>
+            <h2><i>Bad Apple!!</i> on Desmos</h2>
+            <p>Main Video</p>
+            <video id="sourceVideo" class="debug">
+                <source src="bad_apple_pv.mp4" type="video/mp4"/>
+            </video>
+            <p>Contour Detection</p>
+            <canvas id="processVideo" class="debug"></canvas>
+            <p>Click on the page to start.</p>
+            <p><i>Newer browsers do not allow me to autoplay unless there is "user gesture." Therefore, please click. Please? Pretty please?</i></p>
+        </div>
+    </div>
+
+    <script src="https://www.desmos.com/api/v1.5/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+    <script src="https://docs.opencv.org/4.5.2/opencv.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
